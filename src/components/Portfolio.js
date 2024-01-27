@@ -82,6 +82,13 @@ export default Portfolio;
 
 const projects = [
   {
+    img: "img/portfolio/team-yaa.png",
+    tag: "MERN Stack, React, TypeScript, MongoDB, Node.js, Firebase, Vercel",
+    name: "E-commerce Platform for Halal Food in Japan",
+    desc: "I played a pivotal role in developing an e-commerce website tailored to address the needs of individuals in Japan seeking halal food options. Utilizing the MERN stack (MongoDB, Express, React, Node.js), this project harnessed the power of React and TypeScript to create a user-friendly and responsive interface. The backend, built with Node.js and Express, efficiently manages server-side operations and API interactions, while MongoDB ensures robust and scalable data handling. The platform is designed to simplify the process of locating and purchasing halal food, significantly benefiting the community. Deployed on Firebase for reliable backend services and hosted on Vercel for its frontend, the website ensures seamless user experiences and high-performance standards. This project reflects my commitment to leveraging technology for social good, providing a valuable resource for the halal community in Japan.",
+    url: "https://team-yaa-mall.vercel.app/",
+  },
+  {
     img: "img/portfolio/anyx.jpg",
     tag: "GraphQL, React, Tailwind CSS, JavaScript, TypeScript",
     name: "Build EC platform AnyX in React, Typescript, Tailwind and GraphQL",
