@@ -13,7 +13,7 @@ const About = () => {
             <h3 className="subtitle">About Me</h3>
             <h3 className="title">Biography</h3>
             <p className="desc">
-              {`I'm a Front-end Engineer with over 5 years
+              {`I'm a Front-end Engineer with over 6 years
                 of experience. I'm from Malaysia, currently working in Japan. I code and create
                 web elements for amazing people around the world. I like
                 work with new people. New people are new experiences.
@@ -333,6 +333,53 @@ const Career = ({ description, skills }) => {
 };
 
 const experiences = [
+  {
+    company: "Panasonic Group Yohana LLC Palo, Alto California, United States",
+    date: "(APR 2024 - Present)",
+    title: "Senior Engineer Ⅱ L5",
+    description: (
+      <Career
+        skills={[
+          {
+            title:
+              "AI-Driven Travel Search with Google Maps & Gemini Vertex AI Integration",
+            description:
+              "Spearheaded the implementation of a state-of-the-art travel search engine, seamlessly integrating Google Maps API with Gemini Vertex AI. This enabled users to not only receive personalized hotel and vacation recommendations based on LLM-driven insights but also visualize and pinpoint their desired locations directly on interactive maps.",
+          },
+          {
+            title: "Enhanced Semantic Search for Precise Results",
+            description:
+              "To significantly improve search accuracy, we implemented a custom semantic search algorithm that employs word embeddings, contextual understanding, and query expansion techniques. Word embeddings represent words and phrases as numerical vectors in a high-dimensional space, allowing for semantic similarity comparisons. By understanding the context of search queries, the algorithm can identify relevant results even when users use different phrasing or synonyms. Additionally, query expansion techniques broaden the search scope by incorporating related terms, enhancing the likelihood of finding comprehensive and informative results.",
+          },
+          {
+            title: "AI-Powered Workflow Automation",
+            description:
+              "Leveraged AI to develop software solutions that streamlined internal processes, resulting in substantial productivity gains and cost savings.",
+          },
+          {
+            title: "AI Cost Optimization & Accuracy Enhancement",
+            description:
+              "Developed and implemented a novel '3Ps' architectural method, combining the strengths of multiple AI models (Anthropic, OpenAI, Gemini, and a fine-tuned Llama model) to optimize costs, reduce hallucinations, and deliver the most accurate results.",
+          },
+          {
+            title: "Full-Stack Web Development & Localization",
+            description:
+              "Led the development and adaptation of global web applications for the Japanese market, ensuring a seamless user experience across languages and cultural nuances.",
+          },
+          {
+            title: "Feature Development (Japan Focus)",
+            description:
+              "Designed and implemented features specifically tailored to the needs and preferences of Japanese users, showcasing a deep understanding of local market dynamics.",
+          },
+          {
+            title: "Marketing Optimization",
+            description:
+              "Spearheaded marketing strategies across web pages and online stores, utilizing data-driven insights to enhance visibility and engagement in Japan.",
+          },
+        ]}
+      />
+    ),
+  },
   {
     company: "Anymind Group",
     date: "(SEPTEMBER 2022 - PRESENT)",
