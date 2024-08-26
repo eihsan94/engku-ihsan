@@ -31,10 +31,6 @@ const About = () => {
                     <th>Engku Ihsan</th>
                   </tr>
                   <tr>
-                    <th>Birthday</th>
-                    <th>19th Sept 1994</th>
-                  </tr>
-                  <tr>
                     <th>Phone</th>
                     <th>
                       <a href="tel:+3846923442364">(+81) 080 2947 4788</a>
