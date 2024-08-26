@@ -153,11 +153,6 @@ const Contact = () => {
           {/* /Contact Form */}
           {/* Contact Info */}
           <div className="resumo_fn_contact_info">
-            <p>Address</p>
-            <h3>
-              45-25 OoyamaCho Sante Yoyogi Uehara Room 203, Shibuya City, Tokyo,
-              Japan
-            </h3>
             <p>Phone</p>
             <h3>
               <a href="tel:+818029474788">(+81) 080 2947 4788</a>
