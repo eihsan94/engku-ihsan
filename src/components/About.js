@@ -31,12 +31,6 @@ const About = () => {
                     <th>Engku Ihsan</th>
                   </tr>
                   <tr>
-                    <th>Phone</th>
-                    <th>
-                      <a href="tel:+3846923442364">(+81) 080 2947 4788</a>
-                    </th>
-                  </tr>
-                  <tr>
                     <th>Email</th>
                     <th>
                       <a href="mailto:eihsan94@gmail.com">eihsan94@gmail.com</a>

@@ -153,10 +153,6 @@ const Contact = () => {
           {/* /Contact Form */}
           {/* Contact Info */}
           <div className="resumo_fn_contact_info">
-            <p>Phone</p>
-            <h3>
-              <a href="tel:+818029474788">(+81) 080 2947 4788</a>
-            </h3>
             <p>
               <a className="fn__link" href="mailto:eihsan94@gmail.com">
                 eihsan94@gmail.com
